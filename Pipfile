@@ -4,19 +4,29 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-mypy = "*"
-flake8 = "*"
 black = "*"
+django-stubs = "*"
+djangorestframework-stubs = "*"
+flake8 = "*"
+flake8-annotations = "*"
+flake8-bandit = "*"
+flake8-black = "*"
+flake8-bugbear = "*"
+flake8-comprehensions = "*"
+flake8-django = "*"
+flake8-isort = "*"
+isort = "*"
+mypy = "*"
+pep8-naming = "*"
 
 [packages]
 django = "*"
+django-extensions = "*"
 djangorestframework = "*"
 pygments = "*"
-django-stubs = "*"
-djangorestframework-stubs = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "3.8"
 
 [pipenv]
 allow_prereleases = true
