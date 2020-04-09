@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 black = "*"
 django-stubs = "*"
-djangorestframework-stubs = "*"
+djangorestframework-stubs = {editable = true,git = "git@github.com/typeddjango/djangorestframework-stubs.git"}
 flake8 = "*"
 flake8-annotations = "*"
 flake8-bandit = "*"

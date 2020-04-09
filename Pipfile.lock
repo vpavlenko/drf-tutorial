@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2de4027a0e652e6ae00114dd313c3b8dfc29665a31d4545ac123517e5e2f7ca4"
+            "sha256": "f0ea9e69f67eda2470a8d39edf3736e234f578d73397e2e62cbf242f86df5244"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -138,12 +138,9 @@
             "version": "==1.5.0"
         },
         "djangorestframework-stubs": {
-            "hashes": [
-                "sha256:62acdb9da11489565b3ba7d57fc28877325c7aef25a60eaae2363732414e428f",
-                "sha256:a887daba369b4575d9750b3468530794c5257b1f6733590e37feb96d2e675522"
-            ],
-            "index": "pypi",
-            "version": "==1.1.0"
+            "editable": true,
+            "git": "git@github.com/typeddjango/djangorestframework-stubs.git",
+            "ref": "3b575e62f5a097e14916309bca86721656489e7e"
         },
         "entrypoints": {
             "hashes": [
